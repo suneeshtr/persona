@@ -7,16 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET Userlist page. */
-router.get('/userlist', function(req, res, next)  {
-    var db = req.db;
-    var collection = db.get('usercollection');
-    collection.find({},{},function(e,docs){
-        res.render('userlist', {
-            "userlist" : docs
-        });
-    });
-});
-router.post('/adduser', function(req, res) {
+router.post('/contact', function(req, res) {
 
     // Set our internal DB variable
     var db = req.db;
