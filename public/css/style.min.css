@@ -1,0 +1,47 @@
+body {
+  font: 400 15px/1.5 'Helvetica Neue', Helvetica, Arial;
+  background: #fff;
+  color: #444;
+  margin: 0;
+}
+.abtmebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  background: #f5f6f5;
+  height: 100%;
+  width: 340px;
+}
+.abtme{
+  margin: 40px 0;
+}
+.abtme a{
+  display: inline-block;
+  color: #444;
+  font-weight: 900;
+  text-decoration: none;
+}
+.abtme ul{
+	padding: 0px
+}
+.abtme ul li{
+  font-size: 12px;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding: 5px;
+}
+.abtme ul li:last-child {
+  border-right: 0;
+}
+.abtme-img{
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+}
